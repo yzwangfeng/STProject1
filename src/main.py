@@ -19,7 +19,7 @@ urlFilePath = os.path.join(resPath, "url.txt")
 resultFilePath = os.path.join(resPath, "parser_result.json")
 mavenResultFilePath = os.path.join(resPath, "result.json")
 
-"""
+
 resultList = []
 spider = STSpider(urlFilePath)
 urlList = spider.reader()
@@ -43,7 +43,7 @@ jsonResult = json.dumps(resultList)
 resultFile = open(resultFilePath, "w")
 resultFile.write(jsonResult)
 resultFile.close()
-"""
+
 
 
 
